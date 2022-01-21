@@ -1,0 +1,18 @@
+/* Search section */
+.search-bar__btn {
+  border-radius: 10px;
+  transform: translateX(-15px);
+  width: 40px;
+}
+
+.search-bar__btn span {
+  display: none; /* Hide btn text*/
+}
+
+.search-bar__btn i {
+  display: inline; /* Display btn icon*/
+}
+
+.filters__title {
+  display: block;
+}

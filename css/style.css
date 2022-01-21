@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+/* === VARIABLES === */
+:root {
+  --primary-color: #0065fc;
+  --secondary-color: #deebff;
+  --bg-color: #f2f2f2;
+}
+
+/* === RESETS === */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* === UTILITY CLASSES === */
+.main-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* === MAIN STYLING === */
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin: 25px 0;
+  height: 45px;
+  width: auto;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.header__link {
+  width: 150px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  border-top: 2px solid var(--bg-color);
+}
+
+.header__link:hover,
+.header__link--active {
+  color: var(--primary-color);
+  border-top: 2px solid var(--primary-color);
+}
+
+/* Search section */
+.search-section__title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  font-size: 13px;
+  display: flex;
+  margin: 15px 0 20px 0;
+}
+
+.search-bar > i {
+  padding: 10px 15px;
+  background: var(--bg-color);
+  line-height: 1.2;
+  border-radius: 10px 0 0 10px;
+}
+
+.search-bar__field {
+  outline: none;
+  font-weight: 700;
+  line-height: 1;
+  padding: 10px;
+  border: 1px solid var(--bg-color);
+  border-right: 0;
+}
+
+.search-bar__btn {
+  font-weight: 700;
+  color: white;
+  line-height: 1;
+  border: none;
+  outline: none;
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.search-bar__btn i {
+  display: none;
+}
+
+.filters__title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.filters__btn {
+  font-size: 13px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  line-height: 1;
+  font-weight: 700;
+  white-space: nowrap;
+  background: transparent;
+  padding: 0 20px;
+  border-radius: 50px;
+  border: none;
+  /* border: 2px solid lightgray; */
+  box-shadow: inset 0px 0px 0px 2px lightgray;
+  border-left: 0;
+}
+
+.filters__btn i {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  margin-right: 10px;
+  margin-left: -20px;
+  padding: 15px;
+  border-radius: 50px;
+}

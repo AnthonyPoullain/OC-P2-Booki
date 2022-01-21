@@ -1,0 +1,30 @@
+/* Header */
+.header {
+  flex-direction: column;
+}
+
+.header__link {
+  height: 40px;
+  border-top: 0;
+  border-bottom: 2px solid var(--bg-color);
+}
+
+.header__link:hover {
+  color: var(--primary-color);
+  border-top: 0;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.header__link--active {
+  border-top: 0;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* Search section */
+.search-section {
+  margin-top: 35px;
+}
+
+.search-bar__field {
+  width: 100%;
+}
