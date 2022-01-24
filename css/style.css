@@ -33,9 +33,13 @@ li {
 }
 
 .section-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
+}
+
+.gray-star {
+  color: red;
 }
 
 /*  MAIN STYLING  */
@@ -172,4 +176,116 @@ body {
   margin-left: -21px;
   border-radius: 50%;
   padding: 15px;
+}
+
+.info-text {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.info-text i {
+  height: 25px;
+  font-size: 12px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 2px solid var(--bg-color);
+  color: var(--primary-color);
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+/* accomodation results section */
+.accomodation-results {
+  display: flex;
+  gap: 40px;
+}
+.accomodation-results__sub-section {
+  padding: 45px 40px;
+  background: var(--bg-color);
+  border-radius: 15px;
+}
+
+.accomodations {
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.accomodations__title {
+  width: 100%;
+}
+.accomodations-popular {
+  width: 33%;
+}
+
+/* CARDS */
+.card {
+  padding: 5px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.accomodations__card {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__img {
+  height: 114px;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+}
+
+.card__img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.card__description {
+  padding: 5px 20px;
+  line-height: 1.5;
+}
+
+.card__description span {
+  font-weight: 700;
+}
+
+.card__title {
+  font-size: 16px;
+}
+
+/* STAR COLORS */
+.card__rating {
+  color: var(--primary-color);
+}
+
+/* card 1 */
+.accomodations__card:nth-child(2) .card__rating .fas:last-child {
+  color: var(--secondary-color);
+}
+
+/* card 3 */
+.accomodations__card:nth-child(4) .card__rating .fas:last-child {
+  color: var(--secondary-color);
+}
+
+/* card 4 */
+.accomodations__card:nth-child(5) .card__rating .fas:nth-child(4),
+.accomodations__card:nth-child(5) .card__rating .fas:last-child {
+  color: var(--secondary-color);
+}
+
+/* card 5 */
+.accomodations__card:nth-child(6) .card__rating .fas:last-child {
+  color: var(--secondary-color);
 }
