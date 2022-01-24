@@ -4,6 +4,8 @@
     <title>Booki</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS imports -->
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link
@@ -16,70 +18,70 @@
       rel="stylesheet"
       media="screen and (max-width: 768px)"
     />
+
+    <!-- Scrips -->
     <script
       src="https://kit.fontawesome.com/8337497683.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-    <div class="main-container">
-      <header class="header">
-        <a href="/">
-          <img
-            class="header__logo"
-            src="assets/logo/Booki@3x.png"
-            alt="booki logo"
-          />
-        </a>
-        <nav class="header__nav">
-          <a class="header__link header__link--active" href="#">Hébergements</a>
-          <a class="header__link" href="#">Activités</a>
-        </nav>
-      </header>
-      <main>
-        <section class="search-section">
-          <h1 class="search-section__title section-title">
-            Trouvez votre hébergement pour des vacances de rêve
-          </h1>
-          <p class="search-section__subtitle">
-            En plein centre ville ou en pleine nature
-          </p>
+    <header class="header">
+      <a href="/">
+        <img
+          class="header__logo"
+          src="assets/logo/Booki@3x.png"
+          alt="booki logo"
+        />
+      </a>
+      <nav class="header__nav">
+        <a class="header__link header__link--active" href="#">Hébergements</a>
+        <a class="header__link" href="#">Activités</a>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="search-section">
+        <h1 class="search-section__title section-title">
+          Trouvez votre hébergement pour des vacances de rêve
+        </h1>
+        <p class="search-section__subtitle">
+          En plein centre ville ou en pleine nature
+        </p>
 
-          <form class="search-bar">
-            <i class="fas fa-map-marker-alt"></i>
-            <input
-              class="search-bar__field"
-              type="text"
-              name="search"
-              placeholder="Ville, pays..."
-              value="Marseille, France"
-            />
-            <button class="search-bar__btn">
-              <span>Rechercher</span>
-              <i class="fas fa-search"></i>
-            </button>
-          </form>
-          <div class="filters">
-            <span class="filters__title">Filtres</span>
-            <button class="filters__btn">
-              <i class="fas fa-money-bill-wave"></i>Économique
-            </button>
-            <button class="filters__btn">
-              <i class="fas fa-child"></i>Familial
-            </button>
-            <button class="filters__btn">
-              <i class="fas fa-heart"></i>Romantique
-            </button>
-            <button class="filters__btn">
-              <i class="fas fa-dog"></i>Animaux autorisés
-            </button>
-          </div>
-        </section>
-        <!-- <i class="fas fa-info"></i> -->
-        <!-- <p class="info-text"> -->
-        <!--   Plus de 500 logements sont disponibles dans cette ville -->
-        <!-- </p> -->
-      </main>
-    </div>
+        <form class="search-bar">
+          <i class="fas fa-map-marker-alt"></i>
+          <input
+            class="search-bar__field"
+            type="text"
+            name="search"
+            placeholder="Ville, pays..."
+            value="Marseille, France"
+          />
+          <button class="search-bar__btn">
+            <span>Rechercher</span>
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <div class="filters">
+          <span class="filters__title">Filtres</span>
+          <button class="filters__btn">
+            <i class="fas fa-money-bill-wave"></i>Économique
+          </button>
+          <button class="filters__btn">
+            <i class="fas fa-child"></i>Familial
+          </button>
+          <button class="filters__btn">
+            <i class="fas fa-heart"></i>Romantique
+          </button>
+          <button class="filters__btn">
+            <i class="fas fa-dog"></i>Animaux autorisés
+          </button>
+        </div>
+      </section>
+      <!-- <i class="fas fa-info"></i> -->
+      <!-- <p class="info-text"> -->
+      <!--   Plus de 500 logements sont disponibles dans cette ville -->
+      <!-- </p> -->
+    </main>
   </body>
 </html>

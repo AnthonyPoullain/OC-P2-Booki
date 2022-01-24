@@ -1,18 +1,21 @@
 /* Search section */
+.search-bar {
+  position: relative;
+}
+
 .search-bar__btn {
-  border-radius: 10px;
-  transform: translateX(-15px);
-  width: 40px;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 100%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  right: 0;
 }
 
 .search-bar__btn span {
-  display: none; /* Hide btn text*/
+  display: none; /* Hide btn text */
 }
 
 .search-bar__btn i {
-  display: inline; /* Display btn icon*/
-}
-
-.filters__title {
-  display: block;
+  display: inline; /* Display btn icon */
 }
