@@ -19,3 +19,16 @@
 .search-bar__btn i {
   display: inline; /* Display btn icon */
 }
+
+/* accomodation results section */
+.accomodation-results__sub-section {
+  gap: 10px;
+}
+.accomodations__card {
+  flex-basis: 100%;
+}
+
+.accomodations__title,
+.accomodations-popular__title {
+  margin-bottom: 15px;
+}
