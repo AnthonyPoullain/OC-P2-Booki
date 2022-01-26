@@ -53,6 +53,7 @@
 
 /* accomodation results section */
 .accomodation-results__sub-section {
+  padding: 45px 20px;
   border-radius: 0;
 }
 .accomodation-results {

@@ -10,6 +10,7 @@
   aspect-ratio: 1/1;
   position: absolute;
   right: 0;
+  padding: 0;
 }
 
 .search-bar__btn span {
