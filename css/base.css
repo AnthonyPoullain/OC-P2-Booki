@@ -1,0 +1,30 @@
+/*  RESETS  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+main a:visited {
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}

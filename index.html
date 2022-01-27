@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <title>Booki</title>
     <meta charset="UTF-8" />
@@ -7,6 +7,7 @@
 
     <!-- CSS imports -->
     <link href="css/normalize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/base.css" />
     <link href="css/style.css" rel="stylesheet" />
     <link
       href="css/tablet.css"
@@ -27,6 +28,7 @@
   </head>
 
   <body>
+    <!-- header -->
     <header class="header">
       <a href="/">
         <img
@@ -36,14 +38,13 @@
         />
       </a>
       <nav class="header__nav">
-        <a class="header__link header__link--active" href="#accomodations"
-          >Hébergements</a
-        >
+        <a class="header__link" href="#accomodations">Hébergements</a>
         <a class="header__link" href="#">Activités</a>
       </nav>
     </header>
 
     <main class="main-container">
+      <!-- search section -->
       <section class="search-section">
         <h1 class="search-section__title section-title">
           Trouvez votre hébergement pour des vacances de rêve
@@ -86,6 +87,7 @@
         </p>
       </section>
 
+      <!-- accomodation results section -->
       <section class="accomodation-results" id="accomodations">
         <div class="accomodation-results__sub-section accomodations">
           <h2 class="accomodations__title section-title">
@@ -232,6 +234,7 @@
           <a href="#" class="expand-btn">Afficher Plus</a>
         </div>
 
+        <!-- popular accomodations section -->
         <aside class="accomodation-results__sub-section accomodations-popular">
           <h2 class="accomodations-popular__title section-title">
             Les plus populaires
