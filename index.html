@@ -7,7 +7,7 @@
 
     <!-- CSS imports -->
     <link href="css/normalize.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/base.css" />
+    <link href="css/base.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link
       href="css/tablet.css"
@@ -28,7 +28,7 @@
   </head>
 
   <body>
-    <!-- header -->
+    <!-- Header -->
     <header class="header">
       <a href="/">
         <img
@@ -39,12 +39,12 @@
       </a>
       <nav class="header__nav">
         <a class="header__link" href="#accomodations">Hébergements</a>
-        <a class="header__link" href="#">Activités</a>
+        <a class="header__link" href="#activities">Activités</a>
       </nav>
     </header>
 
     <main class="main-container">
-      <!-- search section -->
+      <!-- Search section -->
       <section class="search-section">
         <h1 class="search-section__title section-title">
           Trouvez votre hébergement pour des vacances de rêve
@@ -66,6 +66,7 @@
             <i class="fas fa-search"></i>
           </button>
         </form>
+
         <div class="filters">
           <span class="filters__title">Filtres</span>
           <button class="filters__btn">
@@ -87,7 +88,7 @@
         </p>
       </section>
 
-      <!-- accomodation results section -->
+      <!-- Accomodation results -->
       <section class="accomodation-results" id="accomodations">
         <div class="accomodation-results__sub-section accomodations">
           <h2 class="accomodations__title section-title">
@@ -231,10 +232,11 @@
               </p>
             </div>
           </a>
+
           <a href="#" class="expand-btn">Afficher Plus</a>
         </div>
 
-        <!-- popular accomodations section -->
+        <!-- Popular accomodations -->
         <aside class="accomodation-results__sub-section accomodations-popular">
           <h2 class="accomodations-popular__title section-title">
             Les plus populaires
@@ -310,6 +312,73 @@
             </div>
           </a>
         </aside>
+      </section>
+
+      <!-- Activity results -->
+      <section class="activities-results" id="activities">
+        <h2 class="activities__title section-title">Activités à Marseille</h2>
+
+        <div class="activities__grid">
+          <a href="#" class="activities__card card">
+            <div class="card__img">
+              <img
+                src="assets/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                alt="activity preview"
+              />
+            </div>
+            <h3 class="card__title">Vieux port</h3>
+          </a>
+
+          <a href="#" class="activities__card card">
+            <div class="card__img">
+              <img
+                src="assets/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                alt="activity preview"
+              />
+            </div>
+            <h3 class="card__title">Fort de Pomègues</h3>
+          </a>
+
+          <a href="#" class="activities__card card">
+            <div class="card__img">
+              <img
+                src="assets/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                alt="activity preview"
+              />
+            </div>
+            <h3 class="card__title">Îles du Frioul</h3>
+          </a>
+
+          <a href="#" class="activities__card card">
+            <div class="card__img">
+              <img
+                src="assets/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                alt="activity preview"
+              />
+            </div>
+            <h3 class="card__title">Parc National des Calanques</h3>
+          </a>
+
+          <a href="#" class="activities__card card">
+            <div class="card__img">
+              <img
+                src="assets/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                alt="activity preview"
+              />
+            </div>
+            <h3 class="card__title">Notre-Dame-de-la-Garde</h3>
+          </a>
+
+          <a href="#" class="activities__card card">
+            <div class="card__img">
+              <img
+                src="assets/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                alt="activity preview"
+              />
+            </div>
+            <h3 class="card__title">Parc Longchamp</h3>
+          </a>
+        </div>
       </section>
     </main>
   </body>

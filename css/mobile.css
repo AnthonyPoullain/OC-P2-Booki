@@ -33,3 +33,13 @@
 .accomodations-popular__title {
   margin-bottom: 15px;
 }
+
+/* Activities section */
+.activities__card:nth-child(1) .card__img,
+.activities__card:nth-child(2) .card__img,
+.activities__card:nth-child(3) .card__img,
+.activities__card:nth-child(4) .card__img,
+.activities__card:nth-child(5) .card__img,
+.activities__card:nth-child(6) .card__img {
+  height: 135px;
+}

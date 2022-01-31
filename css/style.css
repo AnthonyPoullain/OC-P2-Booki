@@ -27,17 +27,6 @@
   line-height: 1.2;
 }
 
-.expand-btn {
-  font-size: var(--secondary-links);
-  font-weight: 700;
-  margin-top: 15px;
-  color: black;
-}
-
-.expand-btn:hover {
-  text-decoration: underline;
-}
-
 /*  MAIN STYLING  */
 body {
   font-family: "Raleway", sans-serif;
@@ -110,7 +99,7 @@ body {
   border: 1px solid var(--bg-color);
   border-right: 0;
   border-left: 0;
-  margin-left: -3px;
+  margin-left: -5px;
 }
 
 .search-bar__btn {
@@ -162,17 +151,21 @@ body {
 }
 
 .filters__btn i {
-  height: 50.25px;
-  width: 50.25px;
+  height: 50px;
+  width: 50px;
   color: var(--primary-color);
   background: var(--secondary-color);
-  /* transform: translateX(-20px); */
   border-radius: 50%;
-  padding: 15px;
-  text-align: center;
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.filters__btn i::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
 }
 
 .info-text {
@@ -200,6 +193,7 @@ body {
 .accomodation-results {
   display: flex;
   gap: 40px;
+  margin-bottom: 25px;
 }
 .accomodation-results__sub-section {
   padding: 45px 40px;
@@ -256,7 +250,6 @@ body {
 }
 
 .card__img img {
-  width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center center;
@@ -354,4 +347,75 @@ body {
 .accomodations-popular__card .card__description {
   height: 100%;
   max-width: calc(100% - 125px);
+}
+
+.expand-btn {
+  width: 100%;
+  font-size: var(--secondary-links);
+  font-weight: 700;
+  margin-top: 15px;
+  color: black;
+}
+
+.expand-btn:hover {
+  text-decoration: underline;
+}
+
+/* Activities results */
+.activities-results {
+  padding: 45px 0;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.activities__title {
+  width: 100%;
+}
+
+.activities__grid {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.activities__card {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
+
+.activities__card .card__title {
+  margin: 20px;
+}
+
+.activities__card:nth-child(1) .card__img {
+  height: 390px;
+}
+
+.activities__card:nth-child(2) .card__img {
+  height: 180px;
+}
+
+.activities__card:nth-child(3) .card__img {
+  height: 105px;
+}
+
+.activities__card:nth-child(4) .card__img {
+  height: 390px;
+}
+
+.activities__card:nth-child(5) .card__img {
+  height: 135px;
+}
+
+.activities__card:nth-child(6) .card__img {
+  height: 150px;
 }
