@@ -9,9 +9,10 @@
 
   /* Font-sizes */
   --p-text: 16px;
-  --main-titles: 24px;
+  --card-body: 14px;
+  --main-titles: 21px;
   --secondary-titles: 18px;
-  --secondary-links: 20px; /* e.g: "Afficher Plus" */
+  --secondary-links: 18px; /* e.g: "Afficher Plus" */
 }
 
 /*  UTILITY CLASSES  */
@@ -221,6 +222,7 @@ body {
 /* CARDS */
 .card {
   color: black;
+  font-size: var(--card-body);
   padding: 5px;
   border-radius: 15px;
   background: white;
@@ -257,8 +259,8 @@ body {
 }
 
 .card__title {
-  font-size: var(--secondary-titles);
-  margin-top: 5px;
+  font-size: var(--p-text);
+  margin: 3px 0;
   line-height: 1.2;
   transition: color 0.2s ease-out;
 }
@@ -285,7 +287,7 @@ body {
 }
 
 .card__rating i {
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: -2px;
 }
 
@@ -347,7 +349,8 @@ body {
 
 .accomodations-popular__card .card__description {
   height: 100%;
-  max-width: calc(100% - 125px);
+  width: 60%;
+  padding: 10px 17px;
 }
 
 .expand-btn {
