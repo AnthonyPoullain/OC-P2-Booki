@@ -102,3 +102,25 @@
 .activities__card:nth-child(6) .card__img {
   height: 200px;
 }
+
+.activities-results {
+  margin-bottom: 50px;
+}
+
+/* Footer */
+footer {
+  padding: 0 0 50px 0;
+}
+
+.footer__content {
+  flex-direction: column;
+}
+
+.footer__col {
+  flex-basis: 100%;
+}
+
+.footer__title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}

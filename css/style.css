@@ -2,12 +2,12 @@
 
 /*  VARIABLES  */
 :root {
-  /* colors */
+  /* Colors */
   --primary-color: #0065fc;
   --secondary-color: #deebff;
   --bg-color: #f2f2f2;
 
-  /* font-sizes */
+  /* Font-sizes */
   --p-text: 16px;
   --main-titles: 24px;
   --secondary-titles: 18px;
@@ -118,6 +118,7 @@ body {
   display: none;
 }
 
+/* Filters */
 .filters {
   margin-top: 30px;
 }
@@ -276,7 +277,7 @@ body {
   font-weight: 700;
 }
 
-/* STAR COLORS */
+/* Stars */
 .card__rating {
   color: var(--primary-color);
   justify-self: end;
@@ -320,7 +321,7 @@ body {
   color: var(--secondary-color);
 }
 
-/* popular accomodations */
+/* Popular accomodations */
 .accomodations-popular__title {
   position: relative;
   width: 100%;
@@ -418,4 +419,41 @@ body {
 
 .activities__card:nth-child(6) .card__img {
   height: 150px;
+}
+
+.activities-results {
+  margin-bottom: 60px;
+}
+
+/* Footer */
+footer {
+  width: 100vw;
+  background: var(--bg-color);
+  padding: 50px 0;
+}
+
+.footer__content {
+  display: flex;
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33%;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: var(--secondary-titles);
+  margin-bottom: 20px;
+}
+
+.footer__links {
+  color: black;
+  font-size: var(--p-text);
+  margin-bottom: 15px;
+}
+
+.footer__links:hover {
+  text-decoration: underline;
 }
