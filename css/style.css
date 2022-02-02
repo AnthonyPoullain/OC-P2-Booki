@@ -62,8 +62,8 @@ body {
   justify-content: center;
   color: inherit;
   border-top: 2px solid var(--bg-color);
-  transition: color 0.2s ease-out;
-  transition: border 0.2s ease-out;
+  transition: color 0.15s ease-out;
+  transition: border 0.15s ease-out;
 }
 
 .header__link:hover {
@@ -145,7 +145,7 @@ body {
   box-shadow: inset 0px 0px 0px 2px lightgray;
   cursor: pointer;
   position: relative;
-  transition: color 0.2s ease-out;
+  transition: color 0.15s ease-out;
 }
 
 .filters__btn:hover {
@@ -229,7 +229,7 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   overflow: hidden;
-  transition: transform 0.2s ease-out;
+  transition: transform 0.15s ease-out;
 }
 
 .card:hover {
@@ -262,7 +262,7 @@ body {
   font-size: var(--p-text);
   margin: 3px 0;
   line-height: 1.2;
-  transition: color 0.2s ease-out;
+  transition: color 0.15s ease-out;
 }
 
 .card__description {
