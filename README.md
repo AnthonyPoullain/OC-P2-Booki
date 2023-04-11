@@ -21,8 +21,8 @@ Integrate a fully responsive web page for the home page of BOOKI, a hotel & tour
 ### What was required
 
 - Integrate mobile first application design from [figma design](https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?node-id=3%3A0&t=aSSTnHDTI9f1lLka-0)
-- Use [FontAwesome](https://fontawesome.com/) for icons
 - 100% pixel accuracy
+- Use [FontAwesome](https://fontawesome.com/) for icons
 
 ### What was considered for better DX
 
