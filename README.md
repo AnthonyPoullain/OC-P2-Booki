@@ -9,7 +9,8 @@ This repo contains the source code to run the frontend for the hotel booking app
 This application is designed to help clients make reservations for their holidays, hotel rooms as well as tourist activities.
 
 
-<img width="400px" src="" />
+<img height="400px" src="https://user-images.githubusercontent.com/68517837/231093749-76f07adb-a046-4be5-91df-925d83024c35.gif" />
+<img height="400px" src="https://user-images.githubusercontent.com/68517837/231096517-816b44fe-b4d0-4c86-9e66-178b0987995a.gif" />
 
 </div>
 
